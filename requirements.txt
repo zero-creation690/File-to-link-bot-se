@@ -13,6 +13,7 @@ sqlalchemy==2.0.35
 
 # Utils
 python-dotenv==1.0.1
+requests==2.32.3   # <-- Added, fixes ModuleNotFoundError
 
 # Optional: production extras
 gunicorn==23.0.0
