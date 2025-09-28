@@ -1,5 +1,18 @@
-pyrogram==2.0.38
-fastapi==0.95.2
-uvicorn[standard]==0.22.0
-requests==2.31.0
-python-dotenv==1.0.0
+# Core bot framework
+pyrogram==2.0.106
+tgcrypto
+
+# Web API (FastAPI + Uvicorn)
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+httpx==0.27.2
+
+# Database
+aiosqlite==0.20.0
+sqlalchemy==2.0.35
+
+# Utils
+python-dotenv==1.0.1
+
+# Optional: production extras
+gunicorn==23.0.0
